@@ -50,29 +50,29 @@
 }
 
 // //////////// load animation
-// .loader{
-//     position: fixed;
-//     z-index: 200;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     background-color: #fefefe;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
+.loader{
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-//     & > * {
-//         width: 50% !important;
-//     }
+    & > * {
+        width: 50% !important;
+    }
     
-// }
+}
 
-// .loader.hidden {
-//     animation: fadeOut 1s;              // take 1s to fade out
-//     animation-fill-mode: forwards;
-//     animation-delay: 1.35s;             // wait 1.35s for animation then start fadeout
-// }
+.loader.hidden {
+    animation: fadeOut 1s;              // take 1s to fade out
+    animation-fill-mode: forwards;
+    animation-delay: 1.35s;             // wait 1.35s for animation then start fadeout
+}
 
 
 

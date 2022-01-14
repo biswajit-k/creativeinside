@@ -14,17 +14,17 @@ var isometricAnimation = lottieWeb.loadAnimation({
 });
 
 
-// var loader = document.querySelector('.loader');
+var loader = document.querySelector('.loader');
 
-// var loadAnimation = lottieWeb.loadAnimation({
-//   container: loader,
-//   path: 'assets/load.json',
-//   renderer: 'svg',
-//   loop: true,
-//   autoplay: true,
-//   name: "load Animation",
-// });
+var loadAnimation = lottieWeb.loadAnimation({
+  container: loader,
+  path: 'assets/load.json',
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  name: "load Animation",
+});
 
-// window.addEventListener('load', () => {
-//   loader.className += " hidden";
-// })
+window.addEventListener('load', () => {
+  loader.className += " hidden";
+})
