@@ -103,6 +103,7 @@ header{
 		&__name{
 			flex-wrap: wrap;
 		}
+		
 
 	}
 }
@@ -126,7 +127,17 @@ header{
 			
 		}
 	}
+	.contact-us{
+		&__submit-box{
+			justify-content: center !important;
+		}
+	}
 
+}
+@media only screen and (max-width: 37.5em) {
+	.isometric{
+		display: none;
+	}
 }
 
 ////////////////////////// main

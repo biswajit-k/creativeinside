@@ -888,6 +888,15 @@ header {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .contact-us__submit-box {
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .isometric {
+    display: none;
+  }
 }
 main {
   margin-bottom: 8rem;
